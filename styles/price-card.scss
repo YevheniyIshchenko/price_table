@@ -15,29 +15,29 @@
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   flex-shrink: 0;
 
-    &:last-child{
-      margin-right: 0;
+  &:last-child {
+    margin-right: 0;
   }
 
   &__title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    & h2 {
+    &__head {
       margin-top: 33px;
       margin-bottom: 0;
       font-weight: 700;
       font-size: 35px;
       line-height: 43px;
       text-align: center;
-      color: #ffffff;
+      color: $white-color;
     }
-    & span {
+    &__text {
       margin-top: 0;
       font-size: 20px;
       line-height: 24px;
       text-align: center;
-      color: #ffffff;
+      color: $white-color;
     }
   }
   &__price {
@@ -49,15 +49,15 @@
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
-    color: #ffffff;
+    color: $white-color;
     &__green {
-      background-color: #5bb189;
+      background-color: $green-card-color;
     }
     &__blue {
-      background-color: #3a6ba5;
+      background-color: $blue-card-color;
     }
     &__red {
-      background-color: #ec632a;
+      background-color: $red-card-color;
     }
   }
   &__description {
@@ -66,7 +66,7 @@
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: #ffffff;
+    color: $white-color;
   }
   &__options-list {
     margin: 0;
@@ -80,7 +80,7 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #ffffff;
+    color: $white-color;
     &:nth-child(odd) {
       background-color: #2a3438;
     }
@@ -113,29 +113,30 @@
     line-height: 17px;
     text-align: center;
 
-    color: #ffffff;
+    color: $white-color;
     border-radius: 20px;
+    border: none;
 
     &__green {
-      background-color: #5bb189;
+      background-color: $green-card-color;
     }
     &__blue {
-      background-color: #3a6ba5;
+      background-color: $blue-card-color;
     }
     &__red {
-      background-color: #ec632a;
+      background-color: $red-card-color;
     }
   }
   .badge {
     position: absolute;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background: #dc3f45;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    color: #ffffff;
+    color: $white-color;
     top: 31px;
     right: -30px;
     width: 147px;
